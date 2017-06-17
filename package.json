@@ -1,0 +1,33 @@
+{
+  "name": "forge-builder-example",
+  "productName": "forge-builder-example",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "pack": "build --dir",
+    "dist": "build",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": "Alex",
+  "license": "MIT",
+  "build": {
+    "appId": "whatever.id"
+  },
+  "dependencies": {
+    "electron-compile": "^6.4.1",
+    "electron-devtools-installer": "^2.2.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "^3.0.0-beta.7"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "electron-prebuilt-compile": "1.6.11"
+  }
+}
