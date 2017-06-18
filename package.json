@@ -31,6 +31,11 @@
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
     "electron-builder": "^19.4.2",
-    "electron-prebuilt-compile": "1.6.11"
+    "electron-prebuilt-compile": "1.7.1"
+  },
+  "config": {
+    "forge": {
+      
+    }
   }
 }
