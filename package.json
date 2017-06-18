@@ -14,7 +14,9 @@
   "author": "Alex",
   "license": "MIT",
   "build": {
-    "appId": "whatever.id"
+    "appId": "whatever.id",
+    "asar": true,
+    "electronCompile": true
   },
   "dependencies": {
     "electron-compile": "^6.4.1",
@@ -28,6 +30,7 @@
     "babel-plugin-transform-es2015-classes": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
+    "electron-builder": "^19.4.2",
     "electron-prebuilt-compile": "1.6.11"
   }
 }
